@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* @media (max-width: 375px) {
+    img {
+        display: none;
+    }
+  } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.leftside {
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 293px 317px;
+    height: 100%;
+    width: 50%;
+}
+
+.rightside {
+    width: 50%;
+    /* height: 300px; */
+    padding: 10px;
+    background-color: white;
+}
+
+.rightside p {
+    color: hsl(228, 12%, 48%);
+}
+
+#perfume {
+    letter-spacing: 4px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price h1 {
+    color: hsl(158, 36%, 37%);
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+button {
+    padding: 10px 50px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+}
+
+button img {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 555px) {
+    body {
+        width: 100%;
+        display: block;
+    }
+
+    .container {
+        width: 80%;
+        flex-direction: column;
+        margin: none;
+    }
+
+    .leftside {
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 200px;
+        height: 200px;
+        width: 80%;
+    }
+
+    .rightside {
+        width: 80%;
+        padding: 10px;
+    }
+
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+   }
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
+ 
